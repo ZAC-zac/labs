@@ -1,0 +1,287 @@
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/Arimo.ttf) format('ttf'),
+    url(../fonts/Arimo.woff) format('woff'),
+    url(../fonts/Arimo.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Arimo-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/Arimo-Bold.ttf) format('ttf'),
+    url(../fonts/Arimo-Bold.woff) format('woff'),
+    url(../fonts/Arimo-Bold.woff2) format('woff2');
+}
+
+body{
+	background:#3a4965;
+	background-position: center;
+	background-repeat: no-repeat;      
+	background-attachment: fixed; 
+	background-size: cover;  
+	padding-top: 14px;
+	padding-bottom: 16px;
+}
+table{
+    text-align: center;
+	background-color: #fafafa;
+	margin: auto;
+}
+
+td{
+	width: 277px;
+	vertical-align: middle;
+}
+
+.choose { 
+    width: 310px;
+}
+
+.choose1 {
+    font-family: 'Arimo-Bold';
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #484848;
+}
+
+.choose2 {
+    font-family: 'Arimo-Bold';
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #484848;
+}
+
+.cho1 {
+    height: 70px;
+	background-color: #89c331;
+	
+}
+
+.cho11 {
+    font-family: 'Arimo-Bold';
+	font-size: 28px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.cho2 {
+    height: 70px;
+	background-color: #f04a56;
+	
+}
+
+.cho22 {
+    font-family: 'Arimo-Bold';
+	font-size: 28px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.cho3 {
+    height: 70px;
+	background-color: #20807c;
+	
+}
+
+.cho33 {
+    font-family: 'Arimo-Bold';
+	font-size: 28px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.price1 {
+    height: 86px;
+    text-align: left;
+	position: relative;
+    
+}
+
+.price2 {
+    text-align: left;
+	position: relative;
+    
+}
+
+.price3 {
+    text-align: left;
+	position: relative;
+}
+
+.pr1 {
+    position: absolute;
+	top:16px;
+	left: 33px;
+	font-family: 'Arimo-Bold';
+	font-size: 60px;
+    color: #484848;
+	text-transform: uppercase;
+}
+
+.pr2 {
+    position: absolute;
+	top:22px;
+	left: 135px;
+}
+
+.bb1 {
+	font-family: 'Arimo-Bold';
+	font-size: 24px;
+    color: #484848;
+	text-transform: uppercase;
+}
+
+.bb2 {
+    font-family: 'Arimo';
+	font-size: 14px;
+    color: #484848;
+	text-transform: uppercase;
+}
+
+.fa-archive, .fa-cloud-upload-alt, .fa-envelope, .fa-life-ring, .fa-cube, .fa-users {
+	font-size: 24px;
+	color: #848484;
+}
+
+.light {
+    height: 69px;
+    background-color: #f2f2f2;
+}
+
+.st1 {
+    margin-left: 12px; 
+	font-family: 'Arimo';
+	font-size: 14px;
+    color: #484848;
+	text-transform: uppercase;
+}
+
+.st2 {
+    box-shadow: -5px 0px 5px -5px rgba(0, 0, 0, 0.5) inset, 5px 0px 5px -5px rgba(0, 0, 0, 0.5) inset;
+}
+
+.st3 {
+    box-shadow: -5px 0px 5px -5px rgba(0, 0, 0, 0.5) inset;
+}
+
+.dark {
+	height: 69px;
+	background-color: #e3e3e3;
+}
+
+.contacts {
+	height: 110px;
+}
+
+.pm1 {
+	background: #dddddd;
+}
+
+.pm2 {
+	background: #eeeeee;
+	
+}
+
+.pm3 {
+	background: #f4f4f4;
+	
+}
+
+.pm4 {
+	background: #eeeeee;
+}
+
+.button1 {
+	height: 50px;
+	width: 192px;
+	border: 0;
+	border-radius: 5px;
+	font-family: 'Arimo-Bold';
+	font-size: 14px;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #484848;
+	
+}
+
+.button2 {
+	height: 50px;
+	width: 192px;
+	border: 0;
+	border-radius: 5px;
+	font-family: 'Arimo-Bold';
+	font-size: 14px;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #89c331;
+	
+}
+
+.button3 {
+	height: 50px;
+	width: 192px;
+	border: 0;
+	border-radius: 5px;
+	font-family: 'Arimo-Bold';
+	font-size: 14px;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #f04a56;
+	
+}
+
+.button4 {
+	height: 50px;
+	width: 192px;
+	border: 0;
+	border-radius: 5px;
+	font-family: 'Arimo-Bold';
+	font-size: 14px;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #20807c;
+	
+}
+
+button:active, button:focus {
+	outline: none;
+}
+
+.button1:hover {
+	cursor: pointer;
+	transition-timing-function: ease;
+    transition-duration: 0.4s;
+	font-size: 14px;
+	background: #303030;
+}
+
+.button2:hover {
+	cursor: pointer;
+	transition-timing-function: ease;
+    transition-duration: 0.4s;
+	font-size: 14px;
+	background: #74a629;
+}
+
+.button3:hover {
+	cursor: pointer;
+	transition-timing-function: ease;
+    transition-duration: 0.4s;
+	font-size: 14px;
+	background: #d1414a;
+}
+
+.button4:hover {
+	cursor: pointer;
+	transition-timing-function: ease;
+    transition-duration: 0.4s;
+	font-size: 14px;
+	background: #18615d;
+}

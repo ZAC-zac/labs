@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/Arimo.ttf) format('ttf'),
+    url(../fonts/Arimo.woff) format('woff'),
+    url(../fonts/Arimo.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Arimo-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/Arimo-Bold.ttf) format('ttf'),
+    url(../fonts/Arimo-Bold.woff) format('woff'),
+    url(../fonts/Arimo-Bold.woff2) format('woff2');
+}
+
+body{
+	background:#3a4965;
+	background-position: center;
+	background-repeat: no-repeat;      
+	background-attachment: fixed; 
+	background-size: cover;  
+	padding-top: 30px;
+	padding-bottom: 22px;
+}
+table{
+	text-transform: uppercase;
+	font-family: 'Arimo';
+	font-size: 20px;
+	text-align: center;
+	color: #484848;
+	margin: auto;
+	line-height: 1.5;
+}
+
+td{
+	
+	vertical-align: middle;
+}
+
+.choose { 
+    background-color: #fafafa;
+	height: 110px;
+}
+
+.standard { 
+    background-color: #89c331;
+	height: 165px;
+	
+}
+
+.ultimate { 
+    background-color: #f04a56;
+	height: 165px;
+	
+}
+
+.premium { 
+    background-color: #20807c;
+	height: 165px;
+	
+}
+
+.choose1 {
+	font-family: 'Arimo-Bold';
+	font-size: 24px;
+}
+
+.choose2 {
+	font-family: 'Arimo-Bold';
+	font-size: 22px;
+}
+
+.fa-archive, .fa-cloud-upload-alt, .fa-envelope, .fa-life-ring, .fa-cube, .fa-users {
+	font-size: 24px;
+	color: #848484;
+}
+
+.st1 {
+	font-family: 'Arimo-Bold';
+	font-size: 20px;
+	line-height: 1.8;
+}
+
+.r1 {
+	box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.5) inset, 0px -5px 5px -5px rgba(34, 60, 80, 0.5) inset;
+}
+
+.r2 {
+	box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 0.5) inset;
+}
+.price1 {
+	font-family: 'Arimo-Bold';
+	font-size: 36px;
+	color: white;
+}
+
+.price2 {
+	font-family: 'Arimo-Bold';
+	font-size: 18px;
+	color: white;
+	vertical-align:top;
+	line-height: 2.2;
+}
+
+.price3 {
+	font-family: 'Arimo-Bold';
+	font-size: 14px;
+	color: white;
+	vertical-align:text-bottom;
+	line-height: 1.5;
+}
+.tx1 {
+	font-family: 'Arimo-Bold';
+	font-size: 24px;
+	color: black;
+}
+
+
+
+.button1 {
+	position: relative;
+	height: 41px;
+	width: 144px;
+	border: 0;
+	border-radius: 5px;
+	font-family: 'Arimo-Bold';
+	font-size: 14px;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #484848
+}
+
+button:active, button:focus {
+	outline: none;
+}
+
+.button1:hover {
+	cursor: pointer;
+	transition-timing-function: ease;
+    transition-duration: 0.4s;
+	font-size: 17px;
+	background: #303030;
+}
