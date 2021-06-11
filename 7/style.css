@@ -1,0 +1,45 @@
+body{
+    font-family: sans-serif;
+    background-color: #999999;
+	
+}
+.final{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    display: grid;
+    text-align: center;
+    top: 100px;
+}
+.numhw{
+    font-size: 50px;
+    color: white;
+}
+.author{
+    font-size: 30px;
+    color: white;
+}
+
+.list{
+    position: relative;
+    top: 60px;
+    width: 100%;
+    height: 350px;
+    text-align: center;
+   
+}
+.text{
+        position: relative;
+    top: 70px;
+    font-size: 36px;
+    color: white;
+}
+
+ul{
+    width: 100%;
+    top: 140px;
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
